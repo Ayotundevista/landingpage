@@ -63,8 +63,13 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.google {
-    background-image: url('images/youtube.png');
+.sheet {
+    background-image: url('images/gsheet.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.gmap {
+    background-image: url('images/gmap.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
