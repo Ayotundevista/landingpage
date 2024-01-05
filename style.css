@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    background: linear-gradient(to bottom, white, rgb(57,184,150));
+    object-position: center;
     color: white;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -25,22 +26,22 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 50%;
     margin: 10px;
     border-radius: 50%;
-    /* background-color: white; */
     color: black;
     text-decoration: none;
     font-size: 50px;
     transition: all 0.3s ease-in-out;
+    zoom:2;
 }
 .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 80px;
     margin: 10px;
     border-radius: 10px;
     background-color: white;
@@ -85,6 +86,11 @@ body {
 }
 .twitter {
     background-image: url('images/twitter.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.vista {
+    background-image: url('images/youtube.jpg');
     background-repeat: no-repeat;
     background-size: contain;
 }
