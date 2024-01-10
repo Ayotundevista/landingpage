@@ -1,5 +1,7 @@
 body {
     object-position: center;
+    background-image: url("images/vista_connect_3.jpg");
+    background-size: 100% 100%;
     color: white;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -7,11 +9,13 @@ body {
     margin: 0;
     padding: 0;
 }
+mg{
+    height:5px;
+}
 a{
     text-decoration: none;
 }
 .container {
-    /* background: linear-gradient(to bottom, white, rgb(57,184,150,0.6)); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,8 +23,15 @@ a{
     height: 112vh;
     width: 100%;
 
+    /*  */
 }
+
 .card {
+
+    background-image: url("images/vista logo_1.png");
+    background-size: 10% 10%;
+}
+.card2{   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,21 +41,24 @@ a{
     width: 350px; 
     box-shadow: 0 15px 25px rgba(88, 86, 86, 0.5); 
     height: 760px; 
-    border-radius: 10px; 
-    backdrop-filter: blur(14px); 
-    /* background: linear-gradient(to bottom, white, rgb(57,184,150)); */
+    border-radius: 10px;
     padding: 0px;
     margin: 0;
     text-align: center; 
-} 
+    backdrop-filter: blur(14px); 
+}
 .line {
-    color: black;
+    color: white;
     font-weight: bolder;
-    font-size:  ;
-    position: relative;
+    font-size:28px;
+    position: absolute;
     bottom: 8px;
-    right: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    right: 10px;
+    text-align: right;
+}
+.line p{
+    margin: 0px;
+
 }
 .logo {
     display: flex;
@@ -53,7 +67,6 @@ a{
     text-decoration: none;
     margin-bottom:-10px;
     position: relative;
-    color:white;
     text-align:center;
 }
 .logoname{
@@ -107,6 +120,7 @@ a{
     justify-content: center;
     max-width: 100%;
     max-height: auto;
+    
 }
 .col {
     display: flex;
@@ -116,15 +130,15 @@ a{
     width: 70%;
 }
 @media screen and (min-width: 750px) {
-    .container {
-        height: 100vh;
+    .line {
+        font-size:40px;
     }
-    .card {
+    .card2 {
         width: 750px;
-        height: 840px;
+        height: 950px;
     }
     .card .logo a img{
-        height: 200px;
+        height: 300px;
         width: 750px;
     }
     .icon {
@@ -135,4 +149,10 @@ a{
     .logoname{
         margin-top: -18px;
     }
+    /* .row {
+        flex-direction: column;
+    }
+    .col {
+        flex-direction: row;
+    } */
 }
