@@ -43,7 +43,7 @@ a{
 .line {
     color: white;
     font-weight: bolder;
-    font-size:28px;
+    font-size:35px;
     position: absolute;
     bottom: 8px;
     right: 10px;
@@ -51,6 +51,7 @@ a{
 }
 .line p{
     margin: 0px;
+    border:0px;
 }
 .logo {
     display: flex;
@@ -75,15 +76,13 @@ a{
     color: white;
     border-radius: 5px;
 }
-
 .card .logo a img{
-    height: 191px;
+    height: 195px;
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     background-repeat: no-repeat;
     border:0px;
-
 }
 .icon {
     display: flex;
@@ -123,30 +122,30 @@ a{
 }
 @media screen and (min-width: 750px) {
     .line {
-        font-size:50px;
+        font-size:70px;
     }
     .card2 {
         width: 800px;
-        height: 950px;
+        height: 920px;
     }
     .card .logo a img{
-        height: 300px;
+        height: 500px;
         width: 800px;
     }
     .icon {
-        height: 85px;
-        width: 90px;
+        height: 150px;
+        width: 120px;
         margin: 15px;    
     }
     .logoname{
-        margin: 12px;
-        margin-top: -16px;
+        margin: 14px;
+        margin-top: -17px;
 
     }
-    /* .row {
+    .row {
         flex-direction: column;
     }
     .col {
         flex-direction: row;
-    } */
+    }
 }
