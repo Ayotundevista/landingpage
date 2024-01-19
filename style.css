@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100% 100%;
+    height: 100vh;
 }
 a{
     transition: .5s ease;
@@ -22,10 +23,9 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 110vh;
+    height: 100vh;
     width: 100%;
 }
-
 .card {
     /* background-image: url("images/vista_logo_1.png");
     background-size: 10% 10%; */
